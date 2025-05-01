@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>Muhib Al Ahad</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Muhib <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section  (mentioned skill here)-->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Explore My</h1>
+        <h2 class="skills-subtitle">Skills</h2>
+      </div>
+      <div class="skills-container">
+        <!-- Languages & Design Card -->
+        <div class="skills-card">
+          <h3 class="card-title">Languages & Design</h3>
+          <div class="skills-grid">
+            <div class="skill-group">
+              <div class="skill-item">
+                <i class="fas fa-check-circle"></i>
+                <div class="skill-info">
+                  <h4>C++, Java, Python</h4>
+                  <p>Experienced</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-item">
+                <i class="fas fa-check-circle"></i>
+                <div class="skill-info">
+                  <h4>JavaScript</h4>
+                  <p>Basic</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-item">
+                <i class="fas fa-check-circle"></i>
+                <div class="skill-info">
+                  <h4>HTML, CSS</h4>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-item">
+                <i class="fas fa-check-circle"></i>
+                <div class="skill-info">
+                  <h4>Flutter, Dart, Git</h4>
+                  <p>Basic</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-item">
+                <i class="fas fa-check-circle"></i>
+                <div class="skill-info">
+                  <h4>Database: MySQL</h4>
+                  <p>Experienced</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-item">
+                <i class="fas fa-check-circle"></i>
+                <div class="skill-info">
+                  <h4>Adobe Photoshop, Adobe Illustrator</h4>
+                  <p>Professional</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DA - ML - AI Card -->
+        <div class="skills-card">
+          <h3 class="card-title">DA - ML - AI</h3>
+          <div class="skills-grid">
+            <div class="skill-group">
+              <div class="skill-item">
+                <i class="fas fa-check-circle"></i>
+                <div class="skill-info">
+                  <h4>Pandas, NumPy, SciPy, Matplotlib</h4>
+                  <p>Experienced</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-item">
+                <i class="fas fa-check-circle"></i>
+                <div class="skill-info">
+                  <h4>Scikit-learn, XGBoost</h4>
+                  <p>Experienced</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-item">
+                <i class="fas fa-check-circle"></i>
+                <div class="skill-info">
+                  <h4>TensorFlow, PyTorch, Keras</h4>
+                  <p>Experienced</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-item">
+                <i class="fas fa-check-circle"></i>
+                <div class="skill-info">
+                  <h4>Deep Learning Algorithms</h4>
+                  <p>Experienced</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-item">
+                <i class="fas fa-check-circle"></i>
+                <div class="skill-info">
+                  <h4>Machine Learning Algorithms</h4>
+                  <p>Experienced</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-item">
+                <i class="fas fa-check-circle"></i>
+                <div class="skill-info">
+                  <h4>Streamlit, Flask</h4>
+                  <p>Experienced</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .service-top {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      .section-title {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 5px;
+        font-weight: 500;
+      }
+
+      .skills-subtitle {
+        font-size: 4rem;
+        font-weight: 700;
+        color: #333;
+        margin-top: 0;
+        margin-bottom: 50px;
+      }
+
+      .skills-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+        padding: 0 20px;
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+
+      .skills-card {
+        background: white;
+        border-radius: 20px;
+        padding: 40px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .card-title {
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 35px;
+        font-weight: 600;
+      }
+
+      .skills-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+      }
+
+      .skill-group {
+        margin-bottom: 0;
+      }
+
+      .skill-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+      }
+
+      .skill-item i {
+        color: #000;
+        font-size: 1.6rem;
+        margin-top: 8px;
+      }
+
+      .skill-info {
+        flex: 1;
+      }
+
+      .skill-info h4 {
+        font-size: 1.5rem;
+        color: #333;
+        margin: 0;
+        font-weight: 500;
+        line-height: 1.4;
+      }
+
+      .skill-info p {
+        color: #666;
+        margin: 8px 0 0;
+        font-size: 1.25rem;
+        font-weight: 400;
+      }
+
+      @media (max-width: 1400px) {
+        .skills-container {
+          padding: 0 30px;
+        }
+        .card-title {
+          font-size: 2.2rem;
+        }
+        .skill-info h4 {
+          font-size: 1.4rem;
+        }
+        .skill-info p {
+          font-size: 1.15rem;
+        }
+      }
+
+      @media (max-width: 1200px) {
+        .skills-grid {
+          grid-template-columns: 1fr;
+        }
+        .skill-info h4 {
+          font-size: 1.35rem;
+        }
+      }
+
+      @media (max-width: 992px) {
+        .skills-container {
+          grid-template-columns: 1fr;
+          max-width: 800px;
+        }
+        .skills-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+        .skills-card {
+          padding: 35px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .skills-container {
+          padding: 0 20px;
+        }
+        .skills-grid {
+          grid-template-columns: 1fr;
+        }
+        .skills-subtitle {
+          font-size: 3.5rem;
+        }
+        .card-title {
+          font-size: 2rem;
+        }
+        .skill-info h4 {
+          font-size: 1.3rem;
+        }
+        .skill-info p {
+          font-size: 1.1rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .skills-card {
+          padding: 25px;
+        }
+        .skills-subtitle {
+          font-size: 3rem;
+        }
+        .card-title {
+          font-size: 1.8rem;
+        }
+        .skill-info h4 {
+          font-size: 1.2rem;
+        }
+        .skill-info p {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>TicketNao</h1>
+            <h2>My Ongoing Project</h2>
+            <p>A centralized ticket booking platform for transportation (bus, train, airplane, ferry) and events (movies, concerts, sports). Built with Django, it ensures seamless booking, real-time availability, and secure payments.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/webpage1.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Universal Reservation System</h1>
+            <h2>URS</h2>
+            <p>A JavaFX-based reservation management system for hotels, restaurants, and vehicles. It features user authentication, booking management with an intuitive FXML-based UI.<br>
+              <a href="https://github.com/Ahad-Muhib/Java-2.1/tree/master" target="_blank">
+                <button style="background-color: rgb(149, 149, 167); color: white; border: none; padding: 10px 15px; cursor: pointer; font-size: 14px; border-radius: 5px;">
+                  Check Here
+                </button>
+              </a>
+              
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="img/80824106-c8cead80-8c03-11ea-8abc-508789f1e2b3.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Student Mental Health Tracking System</h1>
+            <p>An SQL-based system with Conceptual, Entity, and Physical (CEP) mapping for tracking student mental health. Supports queries like doctor consultations, case management, and mental health analytics for universities. <br>
+              <a href="https://github.com/Ahad-Muhib/2-2sql" target="_blank">
+                <button style="background-color: rgb(149, 149, 167); color: white; border: none; padding: 10px 15px; cursor: pointer; font-size: 14px; border-radius: 5px;">
+                  Check Here
+                </button>
+              </a>
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="img/pexels-markusspiske-2061168.jpg" alt="img">
+          </div>
+        </div>
+      
+      
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+<!-- About Section -->
+<section id="about">
+  <div class="about container">
+    <div class="col-left">
+      <div class="about-img">
+        <img src="img/344926416_261290212968803_2966610534168204750_n.jpg" alt="Profile Image">
+      </div>
+    </div>
+    <div class="col-right">
+      <h1 class="section-title">About <span>Me</span></h1>
+      <h2 id="dynamic-role" class="role-title"></h2>
+
+      <div class="about-content">
+        <!-- Personal Life & Interests -->
+          <div class="two-column-container">
+  <!-- Left Column - Journey -->
+  <div class="journey-column">
+    <h2 class="section-heading">MY JOURNEY & INTERESTS</h2>
+    <div class="journey-content">
+      <div class="journey-card">
+        <p style="font-size: 1.4rem; line-height: 1.8;">
+          <i class="fas fa-laptop-code icon-accent"></i>
+          Currently pursuing <span class="highlight">Computer Science & Engineering</span> at UAP, 
+          with a strong focus on web development and cybersecurity.
+        </p>
+      </div>
+      
+      <div class="journey-card">
+        <p style="font-size: 1.4rem; line-height: 1.8;">
+          <i class="fas fa-shield-alt icon-accent"></i>
+          Active participant in <span class="highlight">CTF competitions</span> and cybersecurity challenges, 
+          specializing in web exploitation and cryptography.
+        </p>
+      </div>
+      
+      <div class="journey-card">
+        <p style="font-size: 1.4rem; line-height: 1.8;">
+          <i class="fas fa-code icon-accent"></i>
+          Developing full-stack applications using <span class="highlight">Django</span> and modern web technologies, 
+          with a passion for creating secure and scalable solutions.
+        </p>
+      </div>
+      
+      <div class="journey-card">
+        <p style="font-size: 1.4rem; line-height: 1.8;">
+          <i class="fas fa-users icon-accent"></i>
+          Enthusiastic about <span class="highlight">knowledge sharing</span> and collaboration, 
+          actively contributing to coding communities and tech forums.
+        </p>
+      </div>
+
+      <div class="journey-card">
+        <p style="font-size: 1.4rem; line-height: 1.8;">
+          <i class="fas fa-rocket icon-accent"></i>
+          Future goals include becoming a <span class="highlight">cybersecurity expert</span> and 
+          developing innovative solutions for web security challenges.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right Column - Education -->
+  <div class="education-column">
+    <h2 class="section-heading">EDUCATION</h2>
+    
+    <div class="education-timeline">
+      <!-- University -->
+      <div class="education-card">
+        <div class="education-header">
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div>
+            <h3>BSc in Computer Science & Engineering</h3>
+            <p class="institution" style="font-size: 1.4rem; line-height: 1.8;">University of Asia Pacific (UAP)</p>
+          </div>
+        </div>
+        <div class="education-details">
+          <p class="duration" style="font-size: 1.4rem; line-height: 1.8;"><i class="far fa-calendar"></i> 2023 - 2026</p>
+          <p class="description" style="font-size: 1.4rem; line-height: 1.8;">
+            Specialized in software development, algorithms, and database systems. 
+          </p>
+        </div>
+      </div>
+      
+      <!-- HSC -->
+      <div class="education-card">
+        <div class="education-header">
+          <div class="education-icon">
+            <i class="fas fa-school"></i>
+          </div>
+          <div>
+            <h3>Higher Secondary Certificate (HSC)</h3>
+            <p class="institution" style="font-size: 1.4rem; line-height: 1.8;">BAF Shaheen College, Dhaka</p>
+          </div>
+        </div>
+        <div class="education-details">
+          <p class="duration" style="font-size: 1.4rem; line-height: 1.8;"><i class="far fa-calendar"></i> 2019 - 2021</p>
+          <p class="description" style="font-size: 1.4rem; line-height: 1.8;">
+            Science Division. Achieved outstanding results in Physics, Chemistry, and Mathematics. 
+            Active participant in science fairs and academic competitions.
+          </p>
+        </div>
+      </div>
+      
+      <!-- SSC -->
+      <div class="education-card">
+        <div class="education-header">
+          <div class="education-icon">
+            <i class="fas fa-school"></i>
+          </div>
+          <div>
+            <h3>Secondary School Certificate (SSC)</h3>
+            <p class="institution" style="font-size: 1.4rem; line-height: 1.8;">Dhanmondi Govt. Boys' High School</p>
+          </div>
+        </div>
+        <div class="education-details">
+          <p class="duration" style="font-size: 1.4rem; line-height: 1.8;"><i class="far fa-calendar"></i> 2009 - 2019</p>
+          <p class="description" style="font-size: 1.4rem; line-height: 1.8;">
+            Science Division. Developed strong foundation in mathematics and science.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<style>
+/* Base Styles */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --text-color: #333;
+  --light-bg: #f8fafc;
+  --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Two Column Layout */
+.two-column-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 2rem auto;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.journey-column, .education-column {
+  flex: 1;
+}
+
+/* Section Headings */
+.section-heading {
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.section-heading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: var(--primary-color);
+}
+
+/* Journey Section */
+.journey-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.journey-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease;
+}
+
+.journey-card:hover {
+  transform: translateY(-5px);
+}
+
+.journey-card p {
+  margin: 0;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.icon-accent {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+}
+
+.highlight {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Education Section */
+.education-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.education-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+}
+
+.education-card::before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: 2rem;
+  bottom: 2rem;
+  width: 3px;
+  background: var(--primary-color);
+  border-radius: 3px;
+}
+
+.education-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.education-icon {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  margin-top: 0.2rem;
+}
+
+.education-header h3 {
+  font-size: 1.2rem;
+  margin: 0 0 0.3rem 0;
+  color: var(--secondary-color);
+}
+
+.institution {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.duration {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: #555;
+  font-size: 0.95rem;
+  padding-left: 2.3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .two-column-container {
+    flex-direction: column;
+  }
+  
+  .section-heading {
+    font-size: 1.5rem;
+  }
+  
+  .journey-card p {
+    font-size: 1rem;
+  }
+  
+  .education-header h3 {
+    font-size: 1.1rem;
+  }
+}
+
+.skill-list {
+  margin-top: 15px;
+}
+  
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+  
+.skill-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateX(5px);
+}
+  
+.skill-name {
+  font-weight: 500;
+  color: #fff;
+}
+  
+.skill-level {
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+  
+.basic {
+  background-color: #3498db;
+  color: white;
+}
+  
+.beginner {
+  background-color: #2ecc71;
+  color: white;
+}
+  
+.intermediate {
+  background-color: #f1c40f;
+  color: black;
+}
+  
+.experienced {
+  background-color: #e74c3c;
+  color: white;
+}
+  
+.service-item {
+  transition: all 0.3s ease;
+}
+  
+.service-item:hover {
+  transform: translateY(-5px);
+}
+  
+.service-item .icon {
+  margin-bottom: 20px;
+}
+  
+.service-item h2 {
+  margin-bottom: 15px;
+  color: white;
+}
+</style>
+        <!-- Add Font Awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+      </div>
+
+      <a href="#" class="cta">Download Resume</a>
+    </div>
+  </div>
+</section>
+<!-- End About Section -->
+
+<script>
+  // Avoid redeclaration by using 'let' or 'const' at the top level
+  if (!window.roleList) {
+    window.roleList = [
+    "Django Developer",
+    "Full Stack Web Developer",
+    "Cyber Security & CTF Enthusiast",
+    "Programmer",
+  ];
+  
+
+  }
+
+  let roleIndex = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+  const roleElement = document.getElementById("dynamic-role");
+
+  function typeEffect() {
+    const currentRole = window.roleList[roleIndex]; // Use global variable
+    if (isDeleting) {
+      roleElement.textContent = currentRole.substring(0, charIndex--);
+    } else {
+      roleElement.textContent = currentRole.substring(0, charIndex++);
+    }
+
+    if (!isDeleting && charIndex === currentRole.length + 1) {
+      isDeleting = true;
+      setTimeout(typeEffect, 1000); // Pause before deleting
+    } else if (isDeleting && charIndex === 0) {
+      isDeleting = false;
+      roleIndex = (roleIndex + 1) % window.roleList.length; // Move to next role
+      setTimeout(typeEffect, 500); // Pause before next word
+    } else {
+      setTimeout(typeEffect, isDeleting ? 50 : 100); // Adjust speed
+    }
+  }
+
+  typeEffect(); // Start typing effect
+</script>
+
+
+<script>
+  const roles = ["Front End Developer", "Back End Developer", "Cyber Security Enthusiast"];
+  let index = 0;
+
+  function rotateText() {
+    document.getElementById("role").textContent = roles[index];
+    index = (index + 1) % roles.length;
+  }
+
+  setInterval(rotateText, 2000); // Change text every 2 seconds
+  rotateText(); // Initial call
+</script>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+8801828406364</h2>
+            <h2>+8801707831234</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>22201207@uap-bd.edu</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Mirpur, Dhaka, Bangladesh</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+
+
+  
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1>Muhib Al Ahad</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/Ahad.muhib123"><img src="img/facebook.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/ahad-muhib-b87709263"><img src="img/linkedin.png" /></a>
+        </div>
+       
+        <div class="social-item">
+          <a href="https://github.com/Ahad-Muhib"><img src="img/github.png" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
